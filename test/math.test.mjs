@@ -9,4 +9,6 @@ test("add", () => {
 test("subtract", () => {
   assert.equal(subtract(5, 3), 2);
   assert.equal(subtract(1, 2), -1);
+  assert.equal(subtract(0, 0), 0);
+  assert.equal(subtract(-1, -1), 0);
 });
